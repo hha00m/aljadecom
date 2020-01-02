@@ -19,7 +19,33 @@ $colors: (
   buccaneer: #755,
   forest-green: #308c14,
   puerto-rico: #4dba87,
-  mine-shaft: #333
+  mine-shaft: #333333,
+  wrning: #ffbb33,
+  error-c: #cc0000,
+  success-c: #00c851,
+  c-green-primary: hsl(136, 53%, 59%),
+  boot-primary-color2: #4285f4,
+  boot-secon-color: #2bbbad,
+  boot-secon-color2: #00695c,
+  boot-third-color: #aa66cc,
+  boot-third-color2: #9933cc,
+  c-black: hsl(0, 0%, 0%),
+  c-white: hsl(0, 0%, 100%),
+  // Internal color variables / / Should NOT be used directly for theming or component
+  _c-green-primary: hsl(136, 53%, 59%),
+  _c-green-secondary: hsl(136, 54%, 75%),
+  _c-dark-primary: hsl(216, 8%, 12%),
+  _c-dark-secondary: hsl(226, 5%, 48%),
+  _c-gray-primary: hsl(228, 9%, 45%),
+  _c-gray-secondary: hsl(230, 5%, 76%),
+  _c-light-primary: hsl(210, 8%, 95%),
+  _c-light-secondary: hsl(0, 0%, 100%),
+  _c-pink-primary: hsl(359, 77%, 51%),
+  _c-pink-secondary: hsl(7, 100%, 98%),
+  _c-yellow-primary: hsl(50, 100%, 62%),
+  _c-yellow-secondary: hsl(50, 100%, 96%),
+  _c-blue-primary: hsl(210, 50%, 60%),
+  _c-blue-secondary: hsl(216, 33%, 97%)
 );
 
 // Theme generic colors
@@ -27,36 +53,36 @@ $colors: (
 // Value: color value or map with default, hover, focus color values
 $colors-theme: (
   primary: (
-    default: map-get($colors, matterhorn),
-    hover: map-get($colors, matterhorn)
+    default: map-get($colors, _c-green-primary),
+    hover: map-get($colors, c-black)
   ),
   secondary: (
-    default: map-get($colors, gray),
-    hover: map-get($colors, matterhorn),
+    default: map-get($colors, black),
+    hover: map-get($colors, c-black)
   ),
   accent: (
-    default: map-get($colors, matterhorn),
-    hover: map-get($colors, black),
+    default: map-get($colors, black),
+    hover: map-get($colors, c-black)
   ),
   tertiary: map-get($colors, silver),
-  success: map-get($colors, puerto-rico),
-  warning: map-get($colors, buccaneer),
-  error: map-get($colors, burnt-sienna)
+  success: map-get($colors, success-c),
+  warning: map-get($colors, wrning),
+  error: map-get($colors, error-c)
 );
 
 $colors-border: (
   primary: map-get($colors, silver),
-  secondary: map-get($colors, gainsboro),
+  secondary: map-get($colors, gainsboro)
 );
 
 $colors-background: (
   primary: (
-    default: map-get($colors, white),
-    hover: map-get($colors, silver)
+    default: map-get($colors, c-white),
+    hover: map-get($colors, c-black)
   ),
   secondary: (
-    default: map-get($colors, white-smoke),
-    hover: map-get($colors, gainsboro)
+    default: map-get($colors, c-white),
+    hover: map-get($colors, c-black)
   ),
   tertiary: map-get($colors, suva-gray)
 );

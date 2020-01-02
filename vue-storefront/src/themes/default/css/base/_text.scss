@@ -2,7 +2,7 @@
 body {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 h1,
@@ -10,7 +10,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cairo', sans-serif;
 }
 
 h1,
@@ -45,10 +45,10 @@ h6,
 
 // Atomic styles for text
 .serif {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cairo', sans-serif;
 }
 .sans-serif {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Cairo', sans-serif;
 }
 
 .uppercase {

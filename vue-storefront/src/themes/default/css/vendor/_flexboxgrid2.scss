@@ -2,13 +2,13 @@
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
-  padding-right: 8px;
-  padding-left: 8px;
+  padding-right: 1px;
+  padding-left: 1px;
 }
 
 .container-fluid {
-  padding-right: 16px;
-  padding-left: 16px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 @media only screen and (min-width: 576px) {
@@ -53,8 +53,8 @@
   flex-direction: row;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -8px;
-  margin-left: -8px;
+  margin-right: -4px;
+  margin-left: -4px;
 }
 
 .row.reverse {
@@ -78,8 +78,8 @@
   flex: 0 0 auto;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
-  padding-right: 8px;
-  padding-left: 8px;
+  padding-right: 0px;
+  padding-left: 0px;
   max-width: 100%;
 }
 
@@ -89,8 +89,8 @@
   -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  padding-right: 8px;
-  padding-left: 8px;
+  padding-right: 4px;
+  padding-left: 4px;
 }
 
 .col-xs {
@@ -753,8 +753,8 @@
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    padding-right: 8px;
-    padding-left: 8px;
+    padding-right: 2px;
+    padding-left: 2px;
   }
 
   .col-lg {
@@ -986,8 +986,8 @@
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    padding-right: 8px;
-    padding-left: 8px;
+    padding-right: 2px;
+    padding-left: 2px;
   }
 
   .col-xl {
