@@ -1,7 +1,7 @@
 <template>
   <div class="inspirations">
     <div class="row">
-      <div class="col-md-4 p15" v-for="(product, index) in products" :key="index">
+      <div class="col-md-4 px5 p15" v-for="(product, index) in products" :key="index">
         <inspiration-tile :product="product" />
       </div>
     </div>
